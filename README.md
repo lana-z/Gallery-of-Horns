@@ -18,6 +18,7 @@ This is a project at Code Fellows.
 
 ## Credit and Collaborations
 I used ChatGPT for assistance.
+John provided demo starter code.
 I referenced Chris' code. 
 
 
