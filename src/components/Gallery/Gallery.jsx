@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function Gallery(props){
+    console.log(props.list);
     return (
         <>
         <Container>
