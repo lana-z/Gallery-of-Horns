@@ -19,15 +19,14 @@ This is a project at Code Fellows.
 ## Credit and Collaborations
 I used ChatGPT for assistance.
 John provided demo starter code.
-I referenced Chris' code. 
-
+I referenced Johns demos.
 
 #### Notes
 Name of feature: 
 
 Estimate of time needed to complete: 2 hrs
 
-Start time: 5pm PST
+Start time: 4:45pm PST
 
 Finish time:
 
