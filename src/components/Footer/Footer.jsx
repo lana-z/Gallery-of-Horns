@@ -4,7 +4,7 @@ import styles from './footer.module.css';
 
 function Footer() {
   return (
-    <footer> &copy; Lana Z 2023
+    <footer className={styles.footer}> &copy; Lana Z 2023
     </footer>
   )
 }

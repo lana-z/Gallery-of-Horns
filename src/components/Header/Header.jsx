@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './header.module.css';
 
-function Header() {
+function Header(props) {
   return (
     <header className={styles.header}>
-      <h1>Horned Beasts Gallery</h1>
+      <h1>{props.title}</h1>
     </header>
   )
 }
