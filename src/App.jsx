@@ -6,7 +6,7 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import beasts from './beasts.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './app.css';
+import './src/app.css';
 
 
 function App(){
