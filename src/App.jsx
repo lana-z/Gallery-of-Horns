@@ -5,6 +5,7 @@ import Gallery from './components/Gallery/Gallery.jsx';
 import Modal from 'react-bootstrap/Modal';
 import beasts from './beasts.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './src/App.css';
 
 
