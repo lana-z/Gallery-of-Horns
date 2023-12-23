@@ -1,25 +1,28 @@
-import React, { useState } from 'react';
-// import styles from 'hornedbeasts.module.css';
+import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function HornedBeasts(props) {
-    let [favorited, setFavorited]=useState(0);
+function HornedBeasts({beast, setSelected}) {
+    const [favorited, setFavorited]=useState(0);
+    const {image_url, title, description } = beast;
     
     function handleClick() {
         setFavorited(favorited +1);
     }
 
+    function handleSelect(){
+        setSelected(beast);
+    }
+
     return (
         <>
-            <Card style={{ width: '20rem', margin: '10px'}}>
-                <Card.Img variant="top" src={props.imageUrl} alt= {props.keyword}/>
+            <Card className="card" style={{ width: '20rem', margin: '10px'}} >
                 <Card.Body>
-                    <Card.Title>{props.title}</Card.Title>
-                    <Card.Text>
-                    {props.description}
-                    </Card.Text>
-                    <Button onClick={handleClick} variant="primary">Favorite {favorited}</Button>
+                    <Card.Title>{title}</Card.Title>
+                    <Card.Img variant="top" src={image_url} alt= {title}/>
+                    <Card.Text>{description}</Card.Text>
+                    <Button onClick={handleSelect} variant="secondary">Inspect this Beast 🧐</Button>
+                    <Button onClick={handleClick} variant="secondary">Favorite 💖 {favorited}</Button>
                 </Card.Body>
             </Card>
         </>

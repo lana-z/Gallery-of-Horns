@@ -1,5 +1,5 @@
 body {
-    margin-left: 30px;
+    margin-left: 80px;
     display: flex;
     background: #5A4C47;
     color: #FBFAFA;
@@ -10,4 +10,44 @@ body {
 
 header {
     margin: 60px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    margin: 10px;
+    width: 300px;
+}
+
+
+h2 {
+    color: #f7e2ab;
+}
+
+h3 {
+    color: #F63092;
+}
+
+.filter-label {
+   color: #acd3f0;
+   margin-bottom: 2em;
+}
+
+p {
+    font-size: 20px;
+    color:#F63092
+}
+
+.text-center {
+    color: #5A4C47;
+    font-size: 40px;
+}
+
+h5 {
+    color: #6fb6ec;
 }
