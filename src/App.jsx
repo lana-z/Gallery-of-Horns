@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 import beasts from './beasts.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
-
+//file path typo fixed
 
 function App(){
 
