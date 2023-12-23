@@ -3,11 +3,11 @@ import Header from './components/Header/Header.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Gallery from './components/Gallery/Gallery.jsx';
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
 import beasts from './beasts.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './app.css';
-//file path typo fixed
+
+import './src/App.css';
+
 
 function App(){
 
